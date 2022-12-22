@@ -85,16 +85,17 @@ public class Variables01 {
 
     // long yazmamıza rağmen java verilen sayıyı "int" kabul eder.
     // O yüzden değerin sonuna L koyarız (int değeri dışındaysa)
-    public long populationOfWorld = 7000000000L;
+    public long populationOfWorld = 800000000;
 
-    public long x = 123456789;
+    public long x = 987654321;
+    
+    public boolean isRetired = false;
+    public boolean isGratuated = true;
+    
 
-    public boolean isOld = true;
-    public boolean isRich = false;
+    public char initial = 'A';
 
-    public char initial = 'S';
-
-    public String name = ("Tom Hanks");
+    public String name = ("Ali Veli");
 
     //"main method" arabanın motoru gibidir.
     // "main method" çalışmadan hiçbir şey çalışmaz.
